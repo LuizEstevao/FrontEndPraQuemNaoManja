@@ -1,0 +1,109 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  background: #242424;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 70%;
+  border-radius: 30px;
+  border: 3px solid #48cfcb;
+  background-color: #353535;
+  padding: 0;
+}
+
+.areaDeAcoes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  border-bottom: 3px solid #48cfcb;
+}
+
+.areaDeAcoes form {
+  width: 80%;
+}
+
+.areaDeAcoes input {
+  background-color: #353535;
+  color: #48cfcb;
+  border: 2px solid #48cfcb;
+}
+
+.areaDeAcoes input:focus {
+  background-color: #353535;
+  color: #f8f9fa;
+  border: 2px solid #48cfcb;
+  transform: all ease-in 0.2s;
+}
+
+ .areaDeAcoes input::placeholder{
+  color: #48cfcb;
+}
+
+.areaDeAcoes button {
+  color: #48cfcb;
+  border-color: #48cfcb;
+  font-weight: 500;
+}
+
+.areaDeAcoes button:hover {
+  color: aliceblue;
+  background-color: #48cfcb;
+}
+
+
+.lista{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+}
+
+
+.mensagem-item {
+  position: relative;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.botao-fechar {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.botao-fechar:hover {
+  color: darkred;
+}
+
+
+#listaDeMensagens{
+  
+}
+
+
+h1,h2 {
+z-index: 0;
+}
